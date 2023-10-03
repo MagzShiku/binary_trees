@@ -42,6 +42,7 @@ typedef struct binary_tree_s heap_t;
 
 /******SUPPORT FILES******/
 void binary_tree_print(const binary_tree_t *tree);
+size_t binary_tree_H(const binary_tree_t *tree);
 
 /******MY PROTOTYPES*******/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
